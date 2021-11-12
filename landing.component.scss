@@ -1,0 +1,123 @@
+.para-design:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    // margin: 0 auto; /* This will center the border. */
+    width: 40px; /* Change this to whatever width you want. */
+    padding-top: 2px; /* This creates some space between the element and the border. */
+    border-bottom:5px solid #c41d1d; /* Th/* This creates the border. Replace black with whatever color you want. */
+}
+
+.head-design:after,.head-border-design:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    // margin: 0 auto; /* This will center the border. */
+    width: 40px; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom:5px solid #c41d1d; /* This creates the border. Replace black with whatever color you want. */
+}
+.head-border-design:after{
+    margin: 0 auto;
+}
+.background{
+    background-color: #fffafa;
+}
+.head-border-top:before{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 70px; /* Change this to whatever width you want. */
+    // padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom:3px solid grey; /* This creates the border. Replace black with whatever color you want. */
+}
+.content-border-design:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 200px; /* Change this to whatever width you want. */
+    padding-top: 5px; /* This creates some space between the element and the border. */
+    border-bottom:3px solid rgb(163, 106, 106);
+}
+.div-bg{
+    background:linear-gradient( #ebc4c4d6 100%, rgba(235, 196, 196, 0.959)100%),url('https://images.unsplash.com/photo-1584091780978-1beeb2bec1b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80'),black no-repeat;
+    background-size: cover;
+}
+.bg-warning{
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+  .img-fluid{
+      max-height: 300px;
+  }
+  .input-box{
+      max-width: 400px;
+      margin: 0 auto;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    margin: 0 auto;
+    left: 60px;
+  }
+  .image-area {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+
+.ta-results.list-group{
+    max-width: 400px;
+    overflow: auto;
+    max-height: 75vh;
+    border: 1px solid #ccc;
+}
+.typeahead-wrap .list-group-item {    
+    width:100%;
+    text-align: left;
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.typeahead-wrap .list-group-item{
+    width:100%;
+    text-align: left;
+}
+.typeahead-wrap .list-group-item.active{
+    background-color: #ccc;
+}
+
+.typeahead-wrap .list-group-item .item-name {
+    font-weight: bold;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0px; 
+    padding-left: 0px;
+}
